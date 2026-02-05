@@ -154,7 +154,7 @@ if (isset($_GET['timeout']) && $_GET['timeout'] == 1) {
     <div class="left">
         <img src="image/elang.png" alt="Logo3" class="logo">
         <h1>WAREHOUSE MANAGEMENT CONTROL<h1>
-        <p>Your goods are our valuable assets</p>
+        <p>Connecting with github</p>
         <p>Version v1.4.0</p>
     </div>
 
