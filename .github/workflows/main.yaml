@@ -1,0 +1,19 @@
+name: CI-Praktek-Docker
+
+on:
+  push:
+    branches: [ "main" ] # Jalan tiap kali push ke branch main
+
+jobs:
+  build-dan-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Ambil kode dari repo
+      uses: actions/checkout@v3
+
+    - name: Build Docker Image
+      run: docker build -t aplikasi-php-gw:latest .
+
+    - name: Test Running Container
+      run: docker run -d --name test-web aplikasi-php-gw:latest

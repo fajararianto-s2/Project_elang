@@ -1,0 +1,9 @@
+# Jangan upload folder database docker
+mysql_data/
+
+# Jangan upload log atau file temporary
+*.log
+.DS_Store
+
+# Kalau ada folder vendor (composer)
+vendor/
