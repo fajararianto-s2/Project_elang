@@ -133,7 +133,7 @@ $resLok = mysqli_query($koneksi, "SELECT id_lokasi, kode_lokasi, zona FROM lokas
 while ($rk = mysqli_fetch_assoc($resLok)) $lokasi_list[] = $rk;
 
 // AUTO UPDATE STATUS
-$koneksi->query("UPDATE penempatan_barang SET status_penempatan='CEK' WHERE waktu_keluar<NOW() AND status_penempatan='MASUK'");
+//$koneksi->query("UPDATE penempatan_barang SET status_penempatan='CEK' WHERE waktu_keluar<NOW() AND status_penempatan='MASUK'");
 
 // ambil data penempatan + join penerimaan + lokasi
 $res = mysqli_query($koneksi,

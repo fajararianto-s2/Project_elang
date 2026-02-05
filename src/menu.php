@@ -75,7 +75,7 @@ $_SESSION['last_activity'] = time();
             <img src="image/penerimaanbarang2.png" alt="Penerimaan Barang">
             <div class="menu-text">Menu Penerimaan Barang</div>
         </a>
-        <a href="" class="menu-box blue">
+        <a href="penempatan_barang/penempatan_barang.php" class="menu-box blue">
             <img src="image/penempatanbarang.png" alt="penempatan_barang">
             <div class="menu-text">Menu Penempatan Barang</div>
         </a>
