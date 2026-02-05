@@ -312,7 +312,7 @@ $res = mysqli_query($koneksi,
 </div>
 
 <footer>
-<img src="/ui/image/lunla.png" alt="Logo" style="width:30px; vertical-align:middle; margin-right:2px;">
+<img src="../image/lunla.png" alt="Logo" style="width:30px; vertical-align:middle; margin-right:2px;">
 &copy; <?php echo date("Y"); ?> full support by langlangbuana university
 </footer>
 
