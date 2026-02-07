@@ -194,7 +194,7 @@ if (isset($_GET['timeout']) && $_GET['timeout'] == 1) {
     </div>
 
     <footer>
-        <img src="/ui/image/lunla.png" alt="Logo" style="width:30px; vertical-align:middle; margin-right:2px;">
+        <img src="../image/lunla.png" alt="Logo" style="width:30px; vertical-align:middle; margin-right:2px;">
         &copy; <?php echo date("Y"); ?> full support by langlangbuana university - software development class
     </footer>
 
